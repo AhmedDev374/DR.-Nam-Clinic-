@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle, Clock, Shield, Users, Award, Heart } from 'lucide-react';
+import { ArrowRight, CheckCircle, Shield, Users, Award, Heart } from 'lucide-react';
 import { PageProps } from '../types';
 
 const TerapiaPage: React.FC<PageProps> = ({ onBookingClick }) => {
