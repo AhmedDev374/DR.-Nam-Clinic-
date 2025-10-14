@@ -1,11 +1,9 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  // MUST match your GH Pages path exactly (repo name is case & punctuation sensitive)
+  base: '/DR.-Nam-Clinic-/',
   plugins: [react()],
-  server: {
-    host: true, // للسماح بالوصول من أي IP
-    cors: true, // للسماح بطلبات CORS
-    port: 3002, // تأكد أن البورت هو 3000 أو عدله حسب حاجتك
-  }
 })
